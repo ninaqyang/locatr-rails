@@ -4,6 +4,7 @@ ruby '2.3.0'
 
 gem 'coffee-rails', '~> 4.1.0'
 gem 'devise'
+gem 'faker'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg', '~> 0.15'
@@ -26,6 +27,7 @@ gem 'turbolinks'
 group :development, :test do
   gem 'awesome_print'
   gem 'byebug'
+  gem 'factory_girl_rails'
 end
 
 group :development do
@@ -33,3 +35,8 @@ group :development do
   gem 'spring'
 end
 
+group :test do
+  gem 'shoulda'
+  gem 'shoulda-context'
+  gem 'simplecov', require: false
+end
