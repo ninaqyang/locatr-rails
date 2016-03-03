@@ -10,7 +10,9 @@ gem 'faker'
 gem 'jbuilder', '~> 2.0'
 gem 'jquery-rails'
 gem 'pg', '~> 0.15'
+gem 'puma'
 gem 'rails', '4.2.5.2'
+gem 'rails_12factor', group: :production
 gem 'responders'
 gem 'sass-rails', '~> 5.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
