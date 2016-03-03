@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  apipie
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -7,6 +8,7 @@ Rails.application.routes.draw do
   root 'home#index'
 
   namespace :api do
+    resources :users
   end
 
   # Example of regular route:
