@@ -24,6 +24,7 @@ gem 'turbolinks'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem 'awesome_print'
   gem 'byebug'
 end
 
