@@ -1,4 +1,207 @@
 {
+  "Events#create": [
+    {
+      "verb": "POST",
+      "path": "/api/events.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "event": {
+          "title": "explicabo",
+          "address1": "Kub Landing",
+          "address2": "Apt. 247",
+          "city": "Pearliemouth",
+          "state": "Utah",
+          "zip": "25655",
+          "latitude": 72.65091020399987,
+          "longitude": -164.90815097994596,
+          "starts_on": "2016-03-03T23:13:55.542-05:00",
+          "ends_on": "2016-03-04T02:13:55.542-05:00"
+        }
+      },
+      "response_data": {
+        "id": 44,
+        "user_id": null,
+        "title": "explicabo",
+        "address1": "Kub Landing",
+        "address2": "Apt. 247",
+        "city": "Pearliemouth",
+        "state": "Utah",
+        "zip": "25655",
+        "latitude": 72.65091020399987,
+        "longitude": -164.90815097994596,
+        "starts_on": "2016-03-04T04:13:55.541Z",
+        "ends_on": "2016-03-04T07:13:55.541Z",
+        "created_at": "2016-03-04T04:13:55.569Z",
+        "updated_at": "2016-03-04T04:13:55.569Z"
+      },
+      "code": "201",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "Events#destroy": [
+    {
+      "verb": "DELETE",
+      "path": "/api/events/51.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": "",
+      "request_data": null,
+      "response_data": null,
+      "code": "204",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "Events#index": [
+    {
+      "verb": "GET",
+      "path": "/api/events.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": "",
+      "request_data": null,
+      "response_data": [
+        {
+          "id": 45,
+          "user_id": 141,
+          "title": "fuga",
+          "address1": "Senger Mount",
+          "address2": "Apt. 348",
+          "city": "Wolfffort",
+          "state": "New Hampshire",
+          "zip": "99247",
+          "latitude": 82.9553054270508,
+          "longitude": -143.034619774178,
+          "starts_on": "2016-03-04T04:13:55.394Z",
+          "ends_on": "2016-03-04T07:13:55.394Z",
+          "created_at": "2016-03-04T04:13:55.626Z",
+          "updated_at": "2016-03-04T04:13:55.626Z"
+        },
+        {
+          "id": 46,
+          "user_id": 142,
+          "title": "fuga",
+          "address1": "Senger Mount",
+          "address2": "Apt. 348",
+          "city": "Wolfffort",
+          "state": "New Hampshire",
+          "zip": "99247",
+          "latitude": 82.9553054270508,
+          "longitude": -143.034619774178,
+          "starts_on": "2016-03-04T04:13:55.394Z",
+          "ends_on": "2016-03-04T07:13:55.394Z",
+          "created_at": "2016-03-04T04:13:55.633Z",
+          "updated_at": "2016-03-04T04:13:55.633Z"
+        },
+        {
+          "id": 47,
+          "user_id": 143,
+          "title": "fuga",
+          "address1": "Senger Mount",
+          "address2": "Apt. 348",
+          "city": "Wolfffort",
+          "state": "New Hampshire",
+          "zip": "99247",
+          "latitude": 82.9553054270508,
+          "longitude": -143.034619774178,
+          "starts_on": "2016-03-04T04:13:55.394Z",
+          "ends_on": "2016-03-04T07:13:55.394Z",
+          "created_at": "2016-03-04T04:13:55.639Z",
+          "updated_at": "2016-03-04T04:13:55.639Z"
+        },
+        {
+          "id": 48,
+          "user_id": 144,
+          "title": "fuga",
+          "address1": "Senger Mount",
+          "address2": "Apt. 348",
+          "city": "Wolfffort",
+          "state": "New Hampshire",
+          "zip": "99247",
+          "latitude": 82.9553054270508,
+          "longitude": -143.034619774178,
+          "starts_on": "2016-03-04T04:13:55.394Z",
+          "ends_on": "2016-03-04T07:13:55.394Z",
+          "created_at": "2016-03-04T04:13:55.646Z",
+          "updated_at": "2016-03-04T04:13:55.646Z"
+        },
+        {
+          "id": 49,
+          "user_id": 145,
+          "title": "fuga",
+          "address1": "Senger Mount",
+          "address2": "Apt. 348",
+          "city": "Wolfffort",
+          "state": "New Hampshire",
+          "zip": "99247",
+          "latitude": 82.9553054270508,
+          "longitude": -143.034619774178,
+          "starts_on": "2016-03-04T04:13:55.394Z",
+          "ends_on": "2016-03-04T07:13:55.394Z",
+          "created_at": "2016-03-04T04:13:55.652Z",
+          "updated_at": "2016-03-04T04:13:55.652Z"
+        }
+      ],
+      "code": "200",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "Events#show": [
+    {
+      "verb": "GET",
+      "path": "/api/events/52.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": "",
+      "request_data": null,
+      "response_data": {
+        "id": 52,
+        "user_id": 148,
+        "title": "fuga",
+        "address1": "Senger Mount",
+        "address2": "Apt. 348",
+        "city": "Wolfffort",
+        "state": "New Hampshire",
+        "zip": "99247",
+        "latitude": 82.9553054270508,
+        "longitude": -143.034619774178,
+        "starts_on": "2016-03-04T04:13:55.394Z",
+        "ends_on": "2016-03-04T07:13:55.394Z",
+        "created_at": "2016-03-04T04:13:55.714Z",
+        "updated_at": "2016-03-04T04:13:55.714Z"
+      },
+      "code": "200",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "Events#update": [
+    {
+      "verb": "PUT",
+      "path": "/api/events/50.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "event": {
+          "title": "new title"
+        }
+      },
+      "response_data": null,
+      "code": "204",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
   "Users#index": [
     {
       "verb": "GET",
@@ -10,69 +213,69 @@
       "request_data": null,
       "response_data": [
         {
-          "id": 71,
-          "email": "foo1@example.com",
-          "name": "Demetrius Bartell",
+          "id": 149,
+          "email": "foo9@example.com",
+          "name": "Odell Bins",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-03T05:31:29.269Z",
-          "updated_at": "2016-03-03T05:31:29.269Z"
+          "created_at": "2016-03-04T04:13:55.951Z",
+          "updated_at": "2016-03-04T04:13:55.951Z"
         },
         {
-          "id": 72,
-          "email": "foo2@example.com",
-          "name": "Demetrius Bartell",
+          "id": 150,
+          "email": "foo10@example.com",
+          "name": "Odell Bins",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-03T05:31:29.274Z",
-          "updated_at": "2016-03-03T05:31:29.274Z"
+          "created_at": "2016-03-04T04:13:55.955Z",
+          "updated_at": "2016-03-04T04:13:55.955Z"
         },
         {
-          "id": 73,
-          "email": "foo3@example.com",
-          "name": "Demetrius Bartell",
+          "id": 151,
+          "email": "foo11@example.com",
+          "name": "Odell Bins",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-03T05:31:29.278Z",
-          "updated_at": "2016-03-03T05:31:29.278Z"
+          "created_at": "2016-03-04T04:13:55.959Z",
+          "updated_at": "2016-03-04T04:13:55.959Z"
         },
         {
-          "id": 74,
-          "email": "foo4@example.com",
-          "name": "Demetrius Bartell",
+          "id": 152,
+          "email": "foo12@example.com",
+          "name": "Odell Bins",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-03T05:31:29.282Z",
-          "updated_at": "2016-03-03T05:31:29.282Z"
+          "created_at": "2016-03-04T04:13:55.962Z",
+          "updated_at": "2016-03-04T04:13:55.962Z"
         },
         {
-          "id": 75,
-          "email": "foo5@example.com",
-          "name": "Demetrius Bartell",
+          "id": 153,
+          "email": "foo13@example.com",
+          "name": "Odell Bins",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-03T05:31:29.285Z",
-          "updated_at": "2016-03-03T05:31:29.285Z"
+          "created_at": "2016-03-04T04:13:55.966Z",
+          "updated_at": "2016-03-04T04:13:55.966Z"
         }
       ],
       "code": "200",
