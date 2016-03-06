@@ -20,6 +20,13 @@ class Api::EventsController < ApplicationController
     respond_with @event
   end
 
+  api :GET, '/events/:id/partipants', 'Get events participant'
+  param :id, :number, 'Id (primary key of event)', required: true
+  def participants
+    @participants=Event.find(params[:id]).participants
+    respond_with @participants
+  end
+
   api :DELETE, '/events/:id', 'Deletes an event'
   param :id, :number, 'Id (primary key of event)', required: true
   def destroy
@@ -63,6 +70,7 @@ class Api::EventsController < ApplicationController
     param :starts_on, DateTime, desc: 'Event start on datetime'
     param :ends_on, DateTime, desc: 'Event ends on datetime'
   end
+
   def update
     @event = Event.find(params[:id])
 
