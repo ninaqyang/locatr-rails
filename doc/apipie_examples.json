@@ -2,40 +2,42 @@
   "Events#create": [
     {
       "verb": "POST",
-      "path": "/api/events.json",
+      "path": "/api/events",
       "versions": [
         "1.0"
       ],
       "query": null,
       "request_data": {
         "event": {
-          "title": "explicabo",
-          "address1": "Kub Landing",
-          "address2": "Apt. 247",
-          "city": "Pearliemouth",
-          "state": "Utah",
-          "zip": "25655",
-          "latitude": 72.65091020399987,
-          "longitude": -164.90815097994596,
-          "starts_on": "2016-03-03T23:13:55.542-05:00",
-          "ends_on": "2016-03-04T02:13:55.542-05:00"
-        }
+          "title": "voluptas",
+          "address1": "Friesen Village",
+          "address2": "Apt. 657",
+          "city": "Port Damaris",
+          "state": "New Hampshire",
+          "zip": "69425",
+          "latitude": -15.036689159612038,
+          "longitude": -30.371045150280196,
+          "starts_on": "2016-03-19T12:38:42.640-07:00",
+          "ends_on": "2016-03-19T15:38:42.640-07:00"
+        },
+        "user_email": "foo1@example.com",
+        "user_token": "x9Joh5poUU-5j39NS_xn"
       },
       "response_data": {
-        "id": 44,
+        "id": 105,
         "user_id": null,
-        "title": "explicabo",
-        "address1": "Kub Landing",
-        "address2": "Apt. 247",
-        "city": "Pearliemouth",
-        "state": "Utah",
-        "zip": "25655",
-        "latitude": 72.65091020399987,
-        "longitude": -164.90815097994596,
-        "starts_on": "2016-03-04T04:13:55.541Z",
-        "ends_on": "2016-03-04T07:13:55.541Z",
-        "created_at": "2016-03-04T04:13:55.569Z",
-        "updated_at": "2016-03-04T04:13:55.569Z"
+        "title": "voluptas",
+        "address1": "Friesen Village",
+        "address2": "Apt. 657",
+        "city": "Port Damaris",
+        "state": "New Hampshire",
+        "zip": "69425",
+        "latitude": -15.036689159612038,
+        "longitude": -30.371045150280196,
+        "starts_on": "2016-03-19T19:38:42.640Z",
+        "ends_on": "2016-03-19T22:38:42.640Z",
+        "created_at": "2016-03-19T19:38:42.671Z",
+        "updated_at": "2016-03-19T19:38:42.671Z"
       },
       "code": "201",
       "show_in_doc": 1,
@@ -45,11 +47,11 @@
   "Events#destroy": [
     {
       "verb": "DELETE",
-      "path": "/api/events/51.json",
+      "path": "/api/events/113",
       "versions": [
         "1.0"
       ],
-      "query": "",
+      "query": "user_email=foo12%40example.com&user_token=6qDBcLYMbBWMtCLeogCf",
       "request_data": null,
       "response_data": null,
       "code": "204",
@@ -60,92 +62,92 @@
   "Events#index": [
     {
       "verb": "GET",
-      "path": "/api/events.json",
+      "path": "/api/events",
       "versions": [
         "1.0"
       ],
-      "query": "",
+      "query": "user_email=foo4%40example.com&user_token=LsmjLZzjZyQQxAf71hup",
       "request_data": null,
       "response_data": [
         {
-          "id": 45,
-          "user_id": 141,
-          "title": "fuga",
-          "address1": "Senger Mount",
-          "address2": "Apt. 348",
-          "city": "Wolfffort",
-          "state": "New Hampshire",
-          "zip": "99247",
-          "latitude": 82.9553054270508,
-          "longitude": -143.034619774178,
-          "starts_on": "2016-03-04T04:13:55.394Z",
-          "ends_on": "2016-03-04T07:13:55.394Z",
-          "created_at": "2016-03-04T04:13:55.626Z",
-          "updated_at": "2016-03-04T04:13:55.626Z"
+          "id": 107,
+          "user_id": 304,
+          "title": "id",
+          "address1": "Tanya Valleys",
+          "address2": "Apt. 409",
+          "city": "Port Jensenport",
+          "state": "Minnesota",
+          "zip": "78152",
+          "latitude": 65.7766540934023,
+          "longitude": -120.832588492917,
+          "starts_on": "2016-03-19T19:38:42.463Z",
+          "ends_on": "2016-03-19T22:38:42.463Z",
+          "created_at": "2016-03-19T19:38:42.729Z",
+          "updated_at": "2016-03-19T19:38:42.729Z"
         },
         {
-          "id": 46,
-          "user_id": 142,
-          "title": "fuga",
-          "address1": "Senger Mount",
-          "address2": "Apt. 348",
-          "city": "Wolfffort",
-          "state": "New Hampshire",
-          "zip": "99247",
-          "latitude": 82.9553054270508,
-          "longitude": -143.034619774178,
-          "starts_on": "2016-03-04T04:13:55.394Z",
-          "ends_on": "2016-03-04T07:13:55.394Z",
-          "created_at": "2016-03-04T04:13:55.633Z",
-          "updated_at": "2016-03-04T04:13:55.633Z"
+          "id": 108,
+          "user_id": 305,
+          "title": "id",
+          "address1": "Tanya Valleys",
+          "address2": "Apt. 409",
+          "city": "Port Jensenport",
+          "state": "Minnesota",
+          "zip": "78152",
+          "latitude": 65.7766540934023,
+          "longitude": -120.832588492917,
+          "starts_on": "2016-03-19T19:38:42.463Z",
+          "ends_on": "2016-03-19T22:38:42.463Z",
+          "created_at": "2016-03-19T19:38:42.735Z",
+          "updated_at": "2016-03-19T19:38:42.735Z"
         },
         {
-          "id": 47,
-          "user_id": 143,
-          "title": "fuga",
-          "address1": "Senger Mount",
-          "address2": "Apt. 348",
-          "city": "Wolfffort",
-          "state": "New Hampshire",
-          "zip": "99247",
-          "latitude": 82.9553054270508,
-          "longitude": -143.034619774178,
-          "starts_on": "2016-03-04T04:13:55.394Z",
-          "ends_on": "2016-03-04T07:13:55.394Z",
-          "created_at": "2016-03-04T04:13:55.639Z",
-          "updated_at": "2016-03-04T04:13:55.639Z"
+          "id": 109,
+          "user_id": 306,
+          "title": "id",
+          "address1": "Tanya Valleys",
+          "address2": "Apt. 409",
+          "city": "Port Jensenport",
+          "state": "Minnesota",
+          "zip": "78152",
+          "latitude": 65.7766540934023,
+          "longitude": -120.832588492917,
+          "starts_on": "2016-03-19T19:38:42.463Z",
+          "ends_on": "2016-03-19T22:38:42.463Z",
+          "created_at": "2016-03-19T19:38:42.744Z",
+          "updated_at": "2016-03-19T19:38:42.744Z"
         },
         {
-          "id": 48,
-          "user_id": 144,
-          "title": "fuga",
-          "address1": "Senger Mount",
-          "address2": "Apt. 348",
-          "city": "Wolfffort",
-          "state": "New Hampshire",
-          "zip": "99247",
-          "latitude": 82.9553054270508,
-          "longitude": -143.034619774178,
-          "starts_on": "2016-03-04T04:13:55.394Z",
-          "ends_on": "2016-03-04T07:13:55.394Z",
-          "created_at": "2016-03-04T04:13:55.646Z",
-          "updated_at": "2016-03-04T04:13:55.646Z"
+          "id": 110,
+          "user_id": 307,
+          "title": "id",
+          "address1": "Tanya Valleys",
+          "address2": "Apt. 409",
+          "city": "Port Jensenport",
+          "state": "Minnesota",
+          "zip": "78152",
+          "latitude": 65.7766540934023,
+          "longitude": -120.832588492917,
+          "starts_on": "2016-03-19T19:38:42.463Z",
+          "ends_on": "2016-03-19T22:38:42.463Z",
+          "created_at": "2016-03-19T19:38:42.751Z",
+          "updated_at": "2016-03-19T19:38:42.751Z"
         },
         {
-          "id": 49,
-          "user_id": 145,
-          "title": "fuga",
-          "address1": "Senger Mount",
-          "address2": "Apt. 348",
-          "city": "Wolfffort",
-          "state": "New Hampshire",
-          "zip": "99247",
-          "latitude": 82.9553054270508,
-          "longitude": -143.034619774178,
-          "starts_on": "2016-03-04T04:13:55.394Z",
-          "ends_on": "2016-03-04T07:13:55.394Z",
-          "created_at": "2016-03-04T04:13:55.652Z",
-          "updated_at": "2016-03-04T04:13:55.652Z"
+          "id": 111,
+          "user_id": 308,
+          "title": "id",
+          "address1": "Tanya Valleys",
+          "address2": "Apt. 409",
+          "city": "Port Jensenport",
+          "state": "Minnesota",
+          "zip": "78152",
+          "latitude": 65.7766540934023,
+          "longitude": -120.832588492917,
+          "starts_on": "2016-03-19T19:38:42.463Z",
+          "ends_on": "2016-03-19T22:38:42.463Z",
+          "created_at": "2016-03-19T19:38:42.757Z",
+          "updated_at": "2016-03-19T19:38:42.757Z"
         }
       ],
       "code": "200",
@@ -156,27 +158,27 @@
   "Events#show": [
     {
       "verb": "GET",
-      "path": "/api/events/52.json",
+      "path": "/api/events/112",
       "versions": [
         "1.0"
       ],
-      "query": "",
+      "query": "user_email=foo10%40example.com&user_token=qfB6xfCSnziznJYXBiMB",
       "request_data": null,
       "response_data": {
-        "id": 52,
-        "user_id": 148,
-        "title": "fuga",
-        "address1": "Senger Mount",
-        "address2": "Apt. 348",
-        "city": "Wolfffort",
-        "state": "New Hampshire",
-        "zip": "99247",
-        "latitude": 82.9553054270508,
-        "longitude": -143.034619774178,
-        "starts_on": "2016-03-04T04:13:55.394Z",
-        "ends_on": "2016-03-04T07:13:55.394Z",
-        "created_at": "2016-03-04T04:13:55.714Z",
-        "updated_at": "2016-03-04T04:13:55.714Z"
+        "id": 112,
+        "user_id": 310,
+        "title": "id",
+        "address1": "Tanya Valleys",
+        "address2": "Apt. 409",
+        "city": "Port Jensenport",
+        "state": "Minnesota",
+        "zip": "78152",
+        "latitude": 65.7766540934023,
+        "longitude": -120.832588492917,
+        "starts_on": "2016-03-19T19:38:42.463Z",
+        "ends_on": "2016-03-19T22:38:42.463Z",
+        "created_at": "2016-03-19T19:38:42.780Z",
+        "updated_at": "2016-03-19T19:38:42.780Z"
       },
       "code": "200",
       "show_in_doc": 1,
@@ -186,7 +188,7 @@
   "Events#update": [
     {
       "verb": "PUT",
-      "path": "/api/events/50.json",
+      "path": "/api/events/106",
       "versions": [
         "1.0"
       ],
@@ -194,7 +196,9 @@
       "request_data": {
         "event": {
           "title": "new title"
-        }
+        },
+        "user_email": "foo2@example.com",
+        "user_token": "UBNx3Acvs5jZECvvyyf6"
       },
       "response_data": null,
       "code": "204",
@@ -202,80 +206,180 @@
       "recorded": true
     }
   ],
-  "Users#index": [
+  "User#create": [
     {
-      "verb": "GET",
-      "path": "/api/users.json",
+      "verb": "POST",
+      "path": "/users.json",
       "versions": [
         "1.0"
       ],
-      "query": "",
+      "query": null,
+      "request_data": {
+        "user": {
+          "name": "Chris Jeon",
+          "email": "chris@intellum.com",
+          "password": "password"
+        }
+      },
+      "response_data": {
+        "id": 313,
+        "email": "chris@intellum.com",
+        "name": null,
+        "remember_created_at": null,
+        "sign_in_count": 1,
+        "current_sign_in_at": "2016-03-19T19:38:42.910Z",
+        "last_sign_in_at": "2016-03-19T19:38:42.910Z",
+        "current_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "last_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "created_at": "2016-03-19T19:38:42.908Z",
+        "updated_at": "2016-03-19T19:38:42.910Z"
+      },
+      "code": "201",
+      "show_in_doc": 1,
+      "recorded": true
+    },
+    {
+      "verb": "POST",
+      "path": "/users/sign_in.json",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": {
+        "user": {
+          "email": "foo20@example.com",
+          "password": "password"
+        }
+      },
+      "response_data": {
+        "id": 320,
+        "email": "foo20@example.com",
+        "name": "Monty Lockman",
+        "remember_created_at": null,
+        "sign_in_count": 1,
+        "current_sign_in_at": "2016-03-19T19:38:43.207Z",
+        "last_sign_in_at": "2016-03-19T19:38:43.207Z",
+        "current_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "last_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "created_at": "2016-03-19T19:38:43.175Z",
+        "updated_at": "2016-03-19T19:38:43.208Z"
+      },
+      "code": "201",
+      "show_in_doc": 0,
+      "recorded": true
+    }
+  ],
+  "Users#index": [
+    {
+      "verb": "GET",
+      "path": "/api/users",
+      "versions": [
+        "1.0"
+      ],
+      "query": "user_email=foo14%40example.com&user_token=FqZpDz4-8CjTwvk1vqaX",
       "request_data": null,
       "response_data": [
         {
-          "id": 149,
-          "email": "foo9@example.com",
-          "name": "Odell Bins",
+          "id": 315,
+          "email": "foo15@example.com",
+          "name": "Monty Lockman",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-04T04:13:55.951Z",
-          "updated_at": "2016-03-04T04:13:55.951Z"
+          "created_at": "2016-03-19T19:38:43.110Z",
+          "updated_at": "2016-03-19T19:38:43.110Z"
         },
         {
-          "id": 150,
-          "email": "foo10@example.com",
-          "name": "Odell Bins",
+          "id": 316,
+          "email": "foo16@example.com",
+          "name": "Monty Lockman",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-04T04:13:55.955Z",
-          "updated_at": "2016-03-04T04:13:55.955Z"
+          "created_at": "2016-03-19T19:38:43.115Z",
+          "updated_at": "2016-03-19T19:38:43.115Z"
         },
         {
-          "id": 151,
-          "email": "foo11@example.com",
-          "name": "Odell Bins",
+          "id": 317,
+          "email": "foo17@example.com",
+          "name": "Monty Lockman",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-04T04:13:55.959Z",
-          "updated_at": "2016-03-04T04:13:55.959Z"
+          "created_at": "2016-03-19T19:38:43.119Z",
+          "updated_at": "2016-03-19T19:38:43.119Z"
         },
         {
-          "id": 152,
-          "email": "foo12@example.com",
-          "name": "Odell Bins",
+          "id": 318,
+          "email": "foo18@example.com",
+          "name": "Monty Lockman",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-04T04:13:55.962Z",
-          "updated_at": "2016-03-04T04:13:55.962Z"
+          "created_at": "2016-03-19T19:38:43.124Z",
+          "updated_at": "2016-03-19T19:38:43.124Z"
         },
         {
-          "id": 153,
-          "email": "foo13@example.com",
-          "name": "Odell Bins",
+          "id": 319,
+          "email": "foo19@example.com",
+          "name": "Monty Lockman",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-04T04:13:55.966Z",
-          "updated_at": "2016-03-04T04:13:55.966Z"
+          "created_at": "2016-03-19T19:38:43.129Z",
+          "updated_at": "2016-03-19T19:38:43.129Z"
+        },
+        {
+          "id": 314,
+          "email": "foo14@example.com",
+          "name": "Monty Lockman",
+          "remember_created_at": null,
+          "sign_in_count": 1,
+          "current_sign_in_at": "2016-03-19T19:38:43.135Z",
+          "last_sign_in_at": "2016-03-19T19:38:43.135Z",
+          "current_sign_in_ip": {
+            "family": 2,
+            "addr": 0,
+            "mask_addr": 4294967295
+          },
+          "last_sign_in_ip": {
+            "family": 2,
+            "addr": 0,
+            "mask_addr": 4294967295
+          },
+          "created_at": "2016-03-19T19:38:43.104Z",
+          "updated_at": "2016-03-19T19:38:43.135Z"
         }
       ],
       "code": "200",
