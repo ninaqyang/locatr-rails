@@ -6,8 +6,8 @@ class Api::Users::RegistrationsController < Devise::RegistrationsController
 
   resource_description do
     formats ['json']
-    resource_id 'User'
-    short 'Returns User Registration information'
+    resource_id 'Registration'
+    short 'Endpoints for registering a user'
   end
 
   api :POST, '/api/users', 'Registers a user'

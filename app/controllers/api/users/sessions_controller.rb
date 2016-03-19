@@ -6,8 +6,8 @@ class Api::Users::SessionsController < Devise::SessionsController
 
   resource_description do
     formats ['json']
-    resource_id 'User'
-    short 'Returns User Session information'
+    resource_id 'Sessions'
+    short 'Endpoints for Logging in a user'
   end
 
   api :POST, '/api/users/sign_in', 'Signs in a user'
