@@ -9,35 +9,35 @@
       "query": null,
       "request_data": {
         "event": {
-          "title": "voluptas",
-          "address1": "Friesen Village",
-          "address2": "Apt. 657",
-          "city": "Port Damaris",
-          "state": "New Hampshire",
-          "zip": "69425",
-          "latitude": -15.036689159612038,
-          "longitude": -30.371045150280196,
-          "starts_on": "2016-03-19T12:38:42.640-07:00",
-          "ends_on": "2016-03-19T15:38:42.640-07:00"
+          "title": "corporis",
+          "address1": "Swaniawski Centers",
+          "address2": "Apt. 332",
+          "city": "Hildegardton",
+          "state": "Nevada",
+          "zip": "16232",
+          "latitude": 50.42309774671398,
+          "longitude": -9.615970435695402,
+          "starts_on": "2016-03-19T12:41:43.764-07:00",
+          "ends_on": "2016-03-19T15:41:43.764-07:00"
         },
-        "user_email": "foo1@example.com",
-        "user_token": "x9Joh5poUU-5j39NS_xn"
+        "user_email": "foo8@example.com",
+        "user_token": "5hYsbhyb9sTLLf46D6qL"
       },
       "response_data": {
-        "id": 105,
+        "id": 114,
         "user_id": null,
-        "title": "voluptas",
-        "address1": "Friesen Village",
-        "address2": "Apt. 657",
-        "city": "Port Damaris",
-        "state": "New Hampshire",
-        "zip": "69425",
-        "latitude": -15.036689159612038,
-        "longitude": -30.371045150280196,
-        "starts_on": "2016-03-19T19:38:42.640Z",
-        "ends_on": "2016-03-19T22:38:42.640Z",
-        "created_at": "2016-03-19T19:38:42.671Z",
-        "updated_at": "2016-03-19T19:38:42.671Z"
+        "title": "corporis",
+        "address1": "Swaniawski Centers",
+        "address2": "Apt. 332",
+        "city": "Hildegardton",
+        "state": "Nevada",
+        "zip": "16232",
+        "latitude": 50.42309774671398,
+        "longitude": -9.615970435695402,
+        "starts_on": "2016-03-19T19:41:43.764Z",
+        "ends_on": "2016-03-19T22:41:43.764Z",
+        "created_at": "2016-03-19T19:41:43.770Z",
+        "updated_at": "2016-03-19T19:41:43.770Z"
       },
       "code": "201",
       "show_in_doc": 1,
@@ -47,11 +47,11 @@
   "Events#destroy": [
     {
       "verb": "DELETE",
-      "path": "/api/events/113",
+      "path": "/api/events/120",
       "versions": [
         "1.0"
       ],
-      "query": "user_email=foo12%40example.com&user_token=6qDBcLYMbBWMtCLeogCf",
+      "query": "user_email=foo15%40example.com&user_token=LZM34fQz4FAaUFsFzEuV",
       "request_data": null,
       "response_data": null,
       "code": "204",
@@ -66,88 +66,88 @@
       "versions": [
         "1.0"
       ],
-      "query": "user_email=foo4%40example.com&user_token=LsmjLZzjZyQQxAf71hup",
+      "query": "user_email=foo9%40example.com&user_token=jSADWqDsL4bjYQFtXQxk",
       "request_data": null,
       "response_data": [
         {
-          "id": 107,
-          "user_id": 304,
-          "title": "id",
-          "address1": "Tanya Valleys",
-          "address2": "Apt. 409",
-          "city": "Port Jensenport",
-          "state": "Minnesota",
-          "zip": "78152",
-          "latitude": 65.7766540934023,
-          "longitude": -120.832588492917,
-          "starts_on": "2016-03-19T19:38:42.463Z",
-          "ends_on": "2016-03-19T22:38:42.463Z",
-          "created_at": "2016-03-19T19:38:42.729Z",
-          "updated_at": "2016-03-19T19:38:42.729Z"
+          "id": 115,
+          "user_id": 331,
+          "title": "reiciendis",
+          "address1": "Stephany Glens",
+          "address2": "Suite 919",
+          "city": "East Antonietta",
+          "state": "Iowa",
+          "zip": "68803",
+          "latitude": -3.23178831585146,
+          "longitude": -21.6327675786782,
+          "starts_on": "2016-03-19T19:41:43.206Z",
+          "ends_on": "2016-03-19T22:41:43.206Z",
+          "created_at": "2016-03-19T19:41:43.794Z",
+          "updated_at": "2016-03-19T19:41:43.794Z"
         },
         {
-          "id": 108,
-          "user_id": 305,
-          "title": "id",
-          "address1": "Tanya Valleys",
-          "address2": "Apt. 409",
-          "city": "Port Jensenport",
-          "state": "Minnesota",
-          "zip": "78152",
-          "latitude": 65.7766540934023,
-          "longitude": -120.832588492917,
-          "starts_on": "2016-03-19T19:38:42.463Z",
-          "ends_on": "2016-03-19T22:38:42.463Z",
-          "created_at": "2016-03-19T19:38:42.735Z",
-          "updated_at": "2016-03-19T19:38:42.735Z"
+          "id": 116,
+          "user_id": 332,
+          "title": "reiciendis",
+          "address1": "Stephany Glens",
+          "address2": "Suite 919",
+          "city": "East Antonietta",
+          "state": "Iowa",
+          "zip": "68803",
+          "latitude": -3.23178831585146,
+          "longitude": -21.6327675786782,
+          "starts_on": "2016-03-19T19:41:43.206Z",
+          "ends_on": "2016-03-19T22:41:43.206Z",
+          "created_at": "2016-03-19T19:41:43.800Z",
+          "updated_at": "2016-03-19T19:41:43.800Z"
         },
         {
-          "id": 109,
-          "user_id": 306,
-          "title": "id",
-          "address1": "Tanya Valleys",
-          "address2": "Apt. 409",
-          "city": "Port Jensenport",
-          "state": "Minnesota",
-          "zip": "78152",
-          "latitude": 65.7766540934023,
-          "longitude": -120.832588492917,
-          "starts_on": "2016-03-19T19:38:42.463Z",
-          "ends_on": "2016-03-19T22:38:42.463Z",
-          "created_at": "2016-03-19T19:38:42.744Z",
-          "updated_at": "2016-03-19T19:38:42.744Z"
+          "id": 117,
+          "user_id": 333,
+          "title": "reiciendis",
+          "address1": "Stephany Glens",
+          "address2": "Suite 919",
+          "city": "East Antonietta",
+          "state": "Iowa",
+          "zip": "68803",
+          "latitude": -3.23178831585146,
+          "longitude": -21.6327675786782,
+          "starts_on": "2016-03-19T19:41:43.206Z",
+          "ends_on": "2016-03-19T22:41:43.206Z",
+          "created_at": "2016-03-19T19:41:43.807Z",
+          "updated_at": "2016-03-19T19:41:43.807Z"
         },
         {
-          "id": 110,
-          "user_id": 307,
-          "title": "id",
-          "address1": "Tanya Valleys",
-          "address2": "Apt. 409",
-          "city": "Port Jensenport",
-          "state": "Minnesota",
-          "zip": "78152",
-          "latitude": 65.7766540934023,
-          "longitude": -120.832588492917,
-          "starts_on": "2016-03-19T19:38:42.463Z",
-          "ends_on": "2016-03-19T22:38:42.463Z",
-          "created_at": "2016-03-19T19:38:42.751Z",
-          "updated_at": "2016-03-19T19:38:42.751Z"
+          "id": 118,
+          "user_id": 334,
+          "title": "reiciendis",
+          "address1": "Stephany Glens",
+          "address2": "Suite 919",
+          "city": "East Antonietta",
+          "state": "Iowa",
+          "zip": "68803",
+          "latitude": -3.23178831585146,
+          "longitude": -21.6327675786782,
+          "starts_on": "2016-03-19T19:41:43.206Z",
+          "ends_on": "2016-03-19T22:41:43.206Z",
+          "created_at": "2016-03-19T19:41:43.813Z",
+          "updated_at": "2016-03-19T19:41:43.813Z"
         },
         {
-          "id": 111,
-          "user_id": 308,
-          "title": "id",
-          "address1": "Tanya Valleys",
-          "address2": "Apt. 409",
-          "city": "Port Jensenport",
-          "state": "Minnesota",
-          "zip": "78152",
-          "latitude": 65.7766540934023,
-          "longitude": -120.832588492917,
-          "starts_on": "2016-03-19T19:38:42.463Z",
-          "ends_on": "2016-03-19T22:38:42.463Z",
-          "created_at": "2016-03-19T19:38:42.757Z",
-          "updated_at": "2016-03-19T19:38:42.757Z"
+          "id": 119,
+          "user_id": 335,
+          "title": "reiciendis",
+          "address1": "Stephany Glens",
+          "address2": "Suite 919",
+          "city": "East Antonietta",
+          "state": "Iowa",
+          "zip": "68803",
+          "latitude": -3.23178831585146,
+          "longitude": -21.6327675786782,
+          "starts_on": "2016-03-19T19:41:43.206Z",
+          "ends_on": "2016-03-19T22:41:43.206Z",
+          "created_at": "2016-03-19T19:41:43.819Z",
+          "updated_at": "2016-03-19T19:41:43.819Z"
         }
       ],
       "code": "200",
@@ -158,27 +158,27 @@
   "Events#show": [
     {
       "verb": "GET",
-      "path": "/api/events/112",
+      "path": "/api/events/121",
       "versions": [
         "1.0"
       ],
-      "query": "user_email=foo10%40example.com&user_token=qfB6xfCSnziznJYXBiMB",
+      "query": "user_email=foo17%40example.com&user_token=ZxNiJuUUrG_hduisZNsR",
       "request_data": null,
       "response_data": {
-        "id": 112,
-        "user_id": 310,
-        "title": "id",
-        "address1": "Tanya Valleys",
-        "address2": "Apt. 409",
-        "city": "Port Jensenport",
-        "state": "Minnesota",
-        "zip": "78152",
-        "latitude": 65.7766540934023,
-        "longitude": -120.832588492917,
-        "starts_on": "2016-03-19T19:38:42.463Z",
-        "ends_on": "2016-03-19T22:38:42.463Z",
-        "created_at": "2016-03-19T19:38:42.780Z",
-        "updated_at": "2016-03-19T19:38:42.780Z"
+        "id": 121,
+        "user_id": 339,
+        "title": "reiciendis",
+        "address1": "Stephany Glens",
+        "address2": "Suite 919",
+        "city": "East Antonietta",
+        "state": "Iowa",
+        "zip": "68803",
+        "latitude": -3.23178831585146,
+        "longitude": -21.6327675786782,
+        "starts_on": "2016-03-19T19:41:43.206Z",
+        "ends_on": "2016-03-19T22:41:43.206Z",
+        "created_at": "2016-03-19T19:41:43.866Z",
+        "updated_at": "2016-03-19T19:41:43.866Z"
       },
       "code": "200",
       "show_in_doc": 1,
@@ -188,7 +188,7 @@
   "Events#update": [
     {
       "verb": "PUT",
-      "path": "/api/events/106",
+      "path": "/api/events/122",
       "versions": [
         "1.0"
       ],
@@ -197,11 +197,92 @@
         "event": {
           "title": "new title"
         },
-        "user_email": "foo2@example.com",
-        "user_token": "UBNx3Acvs5jZECvvyyf6"
+        "user_email": "foo19@example.com",
+        "user_token": "Aip98YyaeCbzgAFFqzxo"
       },
       "response_data": null,
       "code": "204",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "Registration#create": [
+    {
+      "verb": "POST",
+      "path": "/users.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "user": {
+          "name": "Chris Jeon",
+          "email": "chris@intellum.com",
+          "password": "password"
+        }
+      },
+      "response_data": {
+        "id": 327,
+        "email": "chris@intellum.com",
+        "name": null,
+        "remember_created_at": null,
+        "sign_in_count": 1,
+        "current_sign_in_at": "2016-03-19T19:41:43.465Z",
+        "last_sign_in_at": "2016-03-19T19:41:43.465Z",
+        "current_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "last_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "created_at": "2016-03-19T19:41:43.464Z",
+        "updated_at": "2016-03-19T19:41:43.466Z"
+      },
+      "code": "201",
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "Sessions#create": [
+    {
+      "verb": "POST",
+      "path": "/users/sign_in.json",
+      "versions": [
+        "1.0"
+      ],
+      "query": null,
+      "request_data": {
+        "user": {
+          "email": "foo7@example.com",
+          "password": "password"
+        }
+      },
+      "response_data": {
+        "id": 328,
+        "email": "foo7@example.com",
+        "name": "Tyrique Williamson III",
+        "remember_created_at": null,
+        "sign_in_count": 1,
+        "current_sign_in_at": "2016-03-19T19:41:43.508Z",
+        "last_sign_in_at": "2016-03-19T19:41:43.508Z",
+        "current_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "last_sign_in_ip": {
+          "family": 2,
+          "addr": 0,
+          "mask_addr": 4294967295
+        },
+        "created_at": "2016-03-19T19:41:43.498Z",
+        "updated_at": "2016-03-19T19:41:43.508Z"
+      },
+      "code": "201",
       "show_in_doc": 1,
       "recorded": true
     }
@@ -292,82 +373,82 @@
       "versions": [
         "1.0"
       ],
-      "query": "user_email=foo14%40example.com&user_token=FqZpDz4-8CjTwvk1vqaX",
+      "query": "user_email=foo1%40example.com&user_token=_AF7xiWeppu2aR9tQEyu",
       "request_data": null,
       "response_data": [
         {
-          "id": 315,
-          "email": "foo15@example.com",
-          "name": "Monty Lockman",
+          "id": 322,
+          "email": "foo2@example.com",
+          "name": "Tyrique Williamson III",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-19T19:38:43.110Z",
-          "updated_at": "2016-03-19T19:38:43.110Z"
+          "created_at": "2016-03-19T19:41:43.393Z",
+          "updated_at": "2016-03-19T19:41:43.393Z"
         },
         {
-          "id": 316,
-          "email": "foo16@example.com",
-          "name": "Monty Lockman",
+          "id": 323,
+          "email": "foo3@example.com",
+          "name": "Tyrique Williamson III",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-19T19:38:43.115Z",
-          "updated_at": "2016-03-19T19:38:43.115Z"
+          "created_at": "2016-03-19T19:41:43.399Z",
+          "updated_at": "2016-03-19T19:41:43.399Z"
         },
         {
-          "id": 317,
-          "email": "foo17@example.com",
-          "name": "Monty Lockman",
+          "id": 324,
+          "email": "foo4@example.com",
+          "name": "Tyrique Williamson III",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-19T19:38:43.119Z",
-          "updated_at": "2016-03-19T19:38:43.119Z"
+          "created_at": "2016-03-19T19:41:43.403Z",
+          "updated_at": "2016-03-19T19:41:43.403Z"
         },
         {
-          "id": 318,
-          "email": "foo18@example.com",
-          "name": "Monty Lockman",
+          "id": 325,
+          "email": "foo5@example.com",
+          "name": "Tyrique Williamson III",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-19T19:38:43.124Z",
-          "updated_at": "2016-03-19T19:38:43.124Z"
+          "created_at": "2016-03-19T19:41:43.407Z",
+          "updated_at": "2016-03-19T19:41:43.407Z"
         },
         {
-          "id": 319,
-          "email": "foo19@example.com",
-          "name": "Monty Lockman",
+          "id": 326,
+          "email": "foo6@example.com",
+          "name": "Tyrique Williamson III",
           "remember_created_at": null,
           "sign_in_count": 0,
           "current_sign_in_at": null,
           "last_sign_in_at": null,
           "current_sign_in_ip": null,
           "last_sign_in_ip": null,
-          "created_at": "2016-03-19T19:38:43.129Z",
-          "updated_at": "2016-03-19T19:38:43.129Z"
+          "created_at": "2016-03-19T19:41:43.411Z",
+          "updated_at": "2016-03-19T19:41:43.411Z"
         },
         {
-          "id": 314,
-          "email": "foo14@example.com",
-          "name": "Monty Lockman",
+          "id": 321,
+          "email": "foo1@example.com",
+          "name": "Tyrique Williamson III",
           "remember_created_at": null,
           "sign_in_count": 1,
-          "current_sign_in_at": "2016-03-19T19:38:43.135Z",
-          "last_sign_in_at": "2016-03-19T19:38:43.135Z",
+          "current_sign_in_at": "2016-03-19T19:41:43.418Z",
+          "last_sign_in_at": "2016-03-19T19:41:43.418Z",
           "current_sign_in_ip": {
             "family": 2,
             "addr": 0,
@@ -378,8 +459,8 @@
             "addr": 0,
             "mask_addr": 4294967295
           },
-          "created_at": "2016-03-19T19:38:43.104Z",
-          "updated_at": "2016-03-19T19:38:43.135Z"
+          "created_at": "2016-03-19T19:41:43.384Z",
+          "updated_at": "2016-03-19T19:41:43.419Z"
         }
       ],
       "code": "200",
